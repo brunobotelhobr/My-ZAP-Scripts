@@ -1,6 +1,6 @@
 # My-ZAP-Scripts
 
-Scripts que o OWASP ZAP possa falar com APIs REST
+Scripts to make OWASP ZAP authenticate with REST APIs.
 
-  - O script OWASP-REST-Auth.js faz authenticação e pode setar um cookie ou uma variável global para ser utilizada como header com o OWASP-REST-Authorizarion-Keeper.js
-  - O script OWASP-REST-Authorizarion-Keeper.js pega uma variável global e inclui como Authorization Header e cada requisição.
+The OWASP-REST-Auth.js script does authentication and can set a cookie or global variable to be used as a header with OWASP-REST-Authorizarion-Keeper.js
+The OWASP-REST-Authorizarion-Keeper.js script takes a global variable and adds it as the Authorization Header to each request.
